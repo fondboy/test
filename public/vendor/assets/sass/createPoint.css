@@ -1,0 +1,83 @@
+.container{
+    width:96%;
+}
+.bind_success{
+    color:#FF5784
+}
+.delete{
+    color:#999;
+}
+.table-input-wrapper{
+    width:220px;
+    height:32px;
+    display:inline-block;
+    overflow:hidden;
+    float:right;
+}
+.table-search-input{
+    width:216px;
+    margin-right:8px;
+}
+.select-box{
+    float:right;
+    width:112px;
+    height:32px;
+}
+.select-box .layui-unselect{
+    height:32px;
+}
+.layui-form-selected dl{
+    width:100%;
+    text-align:center;
+}
+.market_right{
+
+    /*margin-left:8px;*/
+}
+.market_templet{
+    display:inline-block;
+    width:32%;
+}
+.bind_fail{
+    color:#999;
+}
+.tipsWrapper{
+    position:relative;
+}
+.tips:after{
+    content:"提示：该信息已变更";
+    display:block;
+    width:125px;
+    height:32px;
+    line-height:32px;
+    background:rgb(0,0,0);
+    position:absolute;
+    top:21px;
+    left:7px;
+    color:#fff;
+    border-radius:2px;
+    font-size:12px;
+}
+.tips:before{
+    content:"";
+    width: 0;
+    height: 0;
+    border: 5px solid;
+    border-color: transparent transparent #000;
+    position:absolute;
+    top:11px;
+    left:32px;
+}
+.new-export{
+    float:right;
+}
+.layui-table-body .layui-table-cell {
+    box-sizing:border-box;
+    padding:0 10px;
+}
+.table-btn.disable:hover{
+    color:#999;
+}
+.table-btn.success_btn:hover{
+    color:#5F6BFF;
+}

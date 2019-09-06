@@ -1,0 +1,31 @@
+body{
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color:#333;
+}
+.skin-blue .main-sidebar{
+    background:#222d32;
+}
+.skin-blue .sidebar a {
+    color: #b8c7ce;
+    font-weight:400;
+}
+.skin-blue .sidebar-menu>li>.treeview-menu{
+    margin: 0 1px;
+    background: #2c3b41;
+}
+.skin-blue .sidebar-menu>li:hover>a{
+    color: #fff;
+    background: #1e282c;
+    border-left-color: #3c8dbc;
+}
+/*.skin-blue .treeview-menu>li.active>a, .skin-blue .treeview-menu>li>a:hover {*/
+/*    color: #fff;*/
+/*} */
+.skin-blue .treeview-menu>li>a:hover {
+    color: #fff;
+}
+.skin-blue-light .treeview-menu>li>a{
+    color:#8aa4af
+}
